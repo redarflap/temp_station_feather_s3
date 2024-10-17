@@ -142,7 +142,7 @@ int main(void)
 
   for (int i = 0; i < MAX_DS18B20; i++)
   {
-    setTemperature(i, INT32_MIN);
+    // setTemperature(i, INT32_MIN);
     temperatures[i] = INT32_MIN;
   }
 
